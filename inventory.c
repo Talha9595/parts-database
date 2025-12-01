@@ -25,7 +25,7 @@ int main(void){
     char code;
     for(;;){
         printf("Enter operation code: ");
-        scanf("%c",&code);
+        scanf(" %c",&code);
         while(getchar() != '\n') //Skips to end of line.
             ;
         switch(code){
